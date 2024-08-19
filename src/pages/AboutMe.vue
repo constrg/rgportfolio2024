@@ -48,6 +48,9 @@
     background-color: rgb(var(--clr-accent));
     color: rgb(var(--clr-dark));
     transform: rotate(-1deg);
+    display: flex;
+    align-items: flex-end;
+    column-gap: 20px;
 }
 
 .about-me .about-me-action-links .about-me-action-link .arrow-up-right-icon
