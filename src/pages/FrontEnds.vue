@@ -19,7 +19,7 @@ onMounted(async () => {
 });
 </script>
 <template>
-    <div class="front-end">
+    <div class="front-end" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
             <h1 class="front-end-title">Front-Ends</h1>
 
@@ -38,7 +38,7 @@ onMounted(async () => {
                         </div>
                     </div>
                 </div>
-                <a class="see-more-link" href="https://github.com/constrg" target="_blank">See more</a>
+                <a class="see-more-link" href="https://github.com/constrg?tab=repositories" target="_blank">See more</a>
             </template>
         </div>
     </div>

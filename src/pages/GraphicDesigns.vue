@@ -19,7 +19,7 @@ onMounted(async () => {
 });
 </script>
 <template>
-    <div class="graphic-design">
+    <div class="graphic-design" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
             <h1 class="graphic-design-title">graphic Designs</h1>
 
@@ -33,7 +33,7 @@ onMounted(async () => {
                         <img class="graphic-design-img" draggable="false" :src="graphicDesign.image" :alt="graphicDesign.name">
                     </div>
                 </div>
-                <a class="see-more-link" href="" target="_blank">See more</a>
+                <a class="see-more-link" href="https://drive.google.com/drive/folders/1zHE5o7xD6i4CKfvnWLoGiag9pkMxNyMs" target="_blank">See more</a>
             </template>
 
         </div>

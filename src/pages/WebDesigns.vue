@@ -19,7 +19,7 @@ onMounted(async () => {
 });
 </script>
 <template>
-    <div class="web-design">
+    <div class="web-design"  data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
             <h1 class="web-design-title">Web Designs</h1>
 

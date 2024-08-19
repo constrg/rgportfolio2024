@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-    <div class="about-me">
+    <div class="about-me" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
             <h1 class="about-me-title">About Me</h1>
             <p class="about-me-p">

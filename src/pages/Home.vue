@@ -17,13 +17,13 @@ onMounted(async () => {
     <div class="hero">
         <div class="container">
 
-            <h1 class="hero-title">
+            <h1 class="hero-title" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
                 THINK. <br>
                 DESIGN. <br>
                 DEVELOP.
             </h1>
 
-            <div class="scroll-down">
+            <div class="scroll-down" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
                 <div class="scroll-down-container">
                     <img class="scroll-down-img" draggable="false" src="../assets/images/scroll-down-img.png" alt="scroll-down-img">
                     <a href="#intro-about-me">
@@ -34,15 +34,15 @@ onMounted(async () => {
         
         </div>
 
-        <div class="skills-and-tools">
+        <div class="skills-and-tools" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
             <div class="skills-and-tools-container">
-                <img class="skills-and-tools-img" draggable="false"  v-for="(skillAndTool, index) in SkillsAndTools" :key="index" :src="skillAndTool.image" :alt="skillAndTool.name" />
-                <img class="skills-and-tools-img" draggable="false"  v-for="(skillAndTool, index) in SkillsAndTools" :key="index" :src="skillAndTool.image" :alt="skillAndTool.name" />
+                <img class="skills-and-tools-img" draggable="false" v-for="(skillAndTool, index) in SkillsAndTools" :key="index" :src="skillAndTool.image" :alt="skillAndTool.name" />
+                <img class="skills-and-tools-img" draggable="false" v-for="(skillAndTool, index) in SkillsAndTools" :key="index" :src="skillAndTool.image" :alt="skillAndTool.name" />
             </div>
         </div>
     </div>
 
-    <div class="intro-about-me" id="intro-about-me">
+    <div class="intro-about-me" id="intro-about-me" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
             <p class="intro-about-me-p">
                 Hello! <span class="highlight">I'm Ricardo Garcia</span>, I have keen interest in <span class="underline">Web Design</span>, <span class="underline">UI/UX Design</span>, <span class="underline">Graphic Design</span>, and <span class="underline">Front-End Development</span>.
@@ -52,7 +52,7 @@ onMounted(async () => {
     </div>
 
 
-    <div class="works" id="works">
+    <div class="works" id="works" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
             <h1 class="works-title">WORKS</h1>
             <ul class="works-categories">
@@ -73,7 +73,7 @@ onMounted(async () => {
 .hero 
 {
     padding-block: 120px;
-    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('../assets/images/rg-img.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../assets/images/rg-img.jpg');
     background-size: cover;
     background-position: center;
     border-bottom: 1px solid rgb(var(--clr-light), 0.2);
@@ -90,6 +90,7 @@ onMounted(async () => {
 .hero .scroll-down
 {
     display: flex;
+    justify-content: flex-end;
     margin-bottom: 40px;
 }
 
