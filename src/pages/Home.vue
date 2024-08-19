@@ -76,7 +76,7 @@ onMounted(async () => {
     background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('../assets/images/rg-img.jpg');
     background-size: cover;
     background-position: center;
-    border-bottom: 1px solid rgb(var(--clr-accent));
+    border-bottom: 1px solid rgb(var(--clr-light), 0.2);
     overflow: hidden;
 }
 
@@ -157,7 +157,7 @@ onMounted(async () => {
 .intro-about-me
 {
     padding-block: 120px;
-    border-bottom: 1px solid rgb(var(--clr-accent));
+    border-bottom: 1px solid rgb(var(--clr-light), 0.2);
 }
 
 .intro-about-me .intro-about-me-p
