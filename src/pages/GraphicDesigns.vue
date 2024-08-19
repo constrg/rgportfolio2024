@@ -21,7 +21,7 @@ onMounted(async () => {
 <template>
     <div class="graphic-design" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
-            <h1 class="graphic-design-title">graphic Designs</h1>
+            <h1 class="graphic-design-title">Graphic Designs</h1>
 
             <template v-if="isLoading">
                 <h1 class="loading-title">Loading...</h1>
