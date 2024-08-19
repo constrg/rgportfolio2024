@@ -18,7 +18,7 @@ import { RouterLink } from 'vue-router';
             <ul class="quick-links">
                 <h1>QUICK LINKS</h1>
                 <li class="quick-item"><RouterLink class="quick-link" :to="{name: 'home'}">Home</RouterLink></li>
-                <li class="quick-item"><RouterLink class="quick-link" :to="{name: 'about-me'}">Know more about me</RouterLink></li>
+                <li class="quick-item"><RouterLink class="quick-link" :to="{name: 'about-me'}">About Me</RouterLink></li>
                 <li class="quick-item"><a class="quick-link" href="./#works">Works</a></li>
             </ul>
             <div class="footer-action-links">
