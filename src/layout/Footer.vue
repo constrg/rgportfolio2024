@@ -19,11 +19,11 @@ import { RouterLink } from 'vue-router';
                 <h1>QUICK LINKS</h1>
                 <li class="quick-item"><RouterLink class="quick-link" :to="{name: 'home'}">Home</RouterLink></li>
                 <li class="quick-item"><RouterLink class="quick-link" :to="{name: 'about-me'}">Know more about me</RouterLink></li>
-                <li class="quick-item"><a class="quick-link" href="/#works">Works</a></li>
+                <li class="quick-item"><a class="quick-link" href="./#works">Works</a></li>
             </ul>
             <div class="footer-action-links">
                 <a class="footer-action-link" href="mailto:ricardolacadgarcia@gmail.com">Email me <img class="arrow-up-right-icon" src="../assets/icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon"></a>
-                <a class="footer-action-link" href="../assets/rgresume2024.pdf" download="rgresume2024.pdf">DL Resume <img class="arrow-up-right-icon" src="../assets/icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon"></a>
+                <a class="footer-action-link" href="./rgresume2024.pdf" download="rgresume2024">DL Resume <img class="arrow-up-right-icon" src="../assets/icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon"></a>
             </div>
         </div>
     </footer>

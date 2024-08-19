@@ -9,7 +9,7 @@
             </p>
             <div class="about-me-action-links">
                 <a class="about-me-action-link" href="mailto:ricardolacadgarcia@gmail.com">Email Me <img class="arrow-up-right-icon" src="../assets/icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon"></a>
-                <a class="about-me-action-link" href="../assets/rgresume2024.pdf" download="rgresume2024.pdf">DL Resume <img class="arrow-up-right-icon" src="../assets/icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon"></a>
+                <a class="about-me-action-link" href="./rgresume2024.pdf" download="rgresume2024">DL Resume <img class="arrow-up-right-icon" src="../assets/icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon"></a>
             </div>
         </div>
     </div>

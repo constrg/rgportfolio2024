@@ -5,9 +5,9 @@ import { RouterLink } from 'vue-router';
     <nav class="nav">
         <ul class="nav-list">
             <li class="nav-item"><RouterLink class="nav-link" :to="{name: 'home'}">Home</RouterLink></li>
-            <li class="nav-item"><a class="nav-link" href="/#works">Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="./#works">Works</a></li>
             <li class="nav-item"><a class="nav-link" href="mailto:ricardolacadgarcia@gmail.com">Email Me</a></li>
-            <li class="nav-item"><a class="nav-link" href="../assets/rgresume2024.pdf" download="rgresume2024.pdf">DL Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="./rgresume2024.pdf" download="rgresume2024">DL Resume</a></li>
         </ul>
     </nav>
 </template>
