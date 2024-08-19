@@ -1,0 +1,289 @@
+{
+    "SkillsAndTools": [
+        {
+            "name": "figma",
+            "image": "/assets/logos/figma.svg"
+        },
+        {
+            "name": "photoshop",
+            "image": "/assets/logos/photoshop.svg"
+        },
+        {
+            "name": "illustrator",
+            "image": "/assets/logos/illustrator.svg"
+        },
+        {
+            "name": "canva",
+            "image": "/assets/logos/canva.svg"
+        },
+        {
+            "name": "html5",
+            "image": "/assets/logos/html5.svg"
+        },
+        {
+            "name": "css3",
+            "image": "/assets/logos/css3.svg"
+        },
+        {
+            "name": "js",
+            "image": "/assets/logos/js.svg"
+        },
+        {
+            "name": "sass",
+            "image": "/assets/logos/sass.svg"
+        },
+        {
+            "name": "vuejs",
+            "image": "/assets/logos/vuejs.svg"
+        },
+        {
+            "name": "bootstrap",
+            "image": "/assets/logos/bootstrap.svg"
+        },
+        {
+            "name": "tailwindcss",
+            "image": "/assets/logos/tailwindcss.svg"
+        },
+        {
+            "name": "vscode-editor",
+            "image": "/assets/logos/vscode-editor.svg"
+        },
+        {
+            "name": "git",
+            "image": "/assets/logos/git.svg"
+        },
+        {
+            "name": "github",
+            "image": "/assets/logos/github.svg"
+        },
+        {
+            "name": "chatgpt",
+            "image": "/assets/logos/chatgpt.svg"
+        }
+    ],
+
+    "WebDesigns": [
+        {
+            "name": "travel-tour-web-design",
+            "image": "/assets/web-designs/travel-tour-web-design.jpg",
+            "link": "https://www.figma.com/proto/F3Ala7mMj0uwd25jGE20IC/TRAVEL-TOUR-WEB-DESIGN?page-id=0%3A1&node-id=1-2&viewport=-761%2C-17961%2C3.15&t=qHkCxKw6iwzPtnjD-8&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1%3A2&hide-ui=1"
+        },
+        {
+            "name": "data_engineering-pilipinas-web-design",
+            "image": "/assets/web-designs/data_engineering-pilipinas-web-design.jpg",
+            "link": "https://www.figma.com/proto/ikzxfOIKGEmwq3pqpZ2U11/DATA_ENGINEERING_PILIPINAS_WEB_DESIGN?node-id=168-41899&starting-point-node-id=168%3A41899&scaling=scale-down-width&content-scaling=fixed&t=X6fWk65WJ4s0rsTd-1&hide-ui=1"
+        },
+        {
+            "name": "barbero-shop-web-design",
+            "image": "/assets/web-designs/barbero-shop-web-design.jpg",
+            "link": "https://www.figma.com/proto/DUgWzLTKgzVO3DcSNGGQum/BARBERO_WEB_DESIGN?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down-width&content-scaling=fixed&t=VNQotJL60O0jEfsZ-1&hide-ui=1"
+        },
+        {
+            "name": "philosophers-apparel-web-design",
+            "image": "/assets/web-designs/philosophers-apparel-web-design.jpg",
+            "link": "https://www.figma.com/proto/4qXPgHVbLQpzvrm6PxrNls/PHILOSOPHERS_APPAREL_WEB_DESIGN?page-id=0%3A1&type=design&node-id=1-4&viewport=113%2C188%2C0.07&t=zYJ4mkJCLEhhvXiJ-1&scaling=scale-down-width&starting-point-node-id=1%3A4&hide-ui=1"
+        },
+        {
+            "name": "nft-web-design",
+            "image": "/assets/web-designs/nft-web-design.jpg",
+            "link": "https://www.figma.com/proto/JC6yyxidWsz31GTiL9MbES/NFT_WEB_DESIGN?page-id=0%3A1&type=design&node-id=1-2&viewport=370%2C323%2C0.25&t=VjbFnhFiyR1AjmI4-1&scaling=scale-down-width&mode=design&hide-ui=1"
+        },
+        {
+            "name": "nike-hero-web-design",
+            "image": "/assets/web-designs/nike-hero-web-design.jpg",
+            "link": "https://www.figma.com/proto/8JgHJcPjfVqx21L4F1sHJg/NIKE_WEB_DESIGN?page-id=0%3A1&type=design&node-id=2-2&viewport=-76%2C291%2C0.25&t=0udaEsOQtt9wDV8Z-1&scaling=scale-down-width&mode=design&hide-ui=1"
+        },
+        {
+            "name": "media-minds-web-design",
+            "image": "/assets/web-designs/media-minds-web-design.jpg",
+            "link": "https://www.figma.com/proto/SdrCUFkin2qWKVeBqh3pgG/MEDIA_MINDS_WEB_DESIGN?page-id=0%3A1&type=design&node-id=1-2&viewport=426%2C57%2C0.06&t=Ckur7K90cdyfh3EV-1&scaling=scale-down-width&mode=design&hide-ui=1"
+        },
+        {
+            "name": "big-brew-web-design",
+            "image": "/assets/web-designs/big-brew-web-design.jpg",
+            "link": "https://www.figma.com/proto/9UP5Qo8T7C31tzCMg5dkD8/BIG_BREW_WEB_DESIGN?page-id=0%3A1&type=design&node-id=0-1&viewport=432%2C43%2C0.04&t=TFOiOHH881yo69xM-1&scaling=scale-down-width&mode=design&hide-ui=1"
+        },
+        {
+            "name": "we-warrior-web-design",
+            "image": "/assets/web-designs/we-warrior-web-design.jpg",
+            "link": "https://www.figma.com/proto/VssZbPvw70Uo81y1QJs4Ge/WE_WARRIOR_WEB_DESIGN?page-id=0%3A1&type=design&node-id=2-326&viewport=438%2C246%2C0.25&t=qEyK9ua7VhhtrZLi-1&scaling=scale-down-width&mode=design&hide-ui=1"
+        },
+        {
+            "name": "furry-friends-web-design",
+            "image": "/assets/web-designs/furry-friends-web-design.jpg",
+            "link": "https://www.figma.com/proto/QPa0gEUGCoAqZKywqLgQuA/FURRY_FRIENDS_WEB_DESIGN?page-id=0%3A1&type=design&node-id=4-22&viewport=285%2C62%2C0.07&t=LIq9DQKdY5HPbDGC-1&scaling=scale-down-width&mode=design&hide-ui=1"
+        },
+        {
+            "name": "luxury-cars-web-design",
+            "image": "/assets/web-designs/luxury-cars-web-design.jpg",
+            "link": "https://www.figma.com/proto/mAPRTEp69lpHZMww936puw/LUXURY_CARS_WEB_DESIGN?node-id=1-2&t=KTSkUxWpsuXQkwkB-1&scaling=scale-down-width&page-id=0%3A1&content-scaling=fixed&hide-ui=1"
+        }
+    ],
+
+    "AppDesigns": [
+        {
+            "name": "watch-app-design",
+            "image": "/assets/app-designs/watch-app-design.jpg",
+            "link": "https://www.figma.com/proto/tubwOy5WPPYXiwpYaRlNV5/WATCH_APP_DESIGN?page-id=0%3A1&type=design&node-id=1-2&viewport=195%2C323%2C0.25&t=Bv6WkZOqKrNMV57z-1&scaling=scale-down&hide-ui=1"
+        },
+        {
+            "name": "tara-kape-app-design",
+            "image": "/assets/app-designs/tara-kape-app-design.jpg",
+            "link": "https://www.figma.com/proto/DZ4VWjgTVhzbKA1Wi9Gzjx/TARA_KAPE_APP_DESIGN?page-id=0%3A1&type=design&node-id=1-6&viewport=145%2C395%2C0.27&t=PAJO81lJz5Vj7X6b-1&scaling=scale-down&hide-ui=1"
+        },
+        {
+            "name": "flash-bank-app-design",
+            "image": "/assets/app-designs/flash-bank-app-design.jpg",
+            "link": "https://www.figma.com/proto/VvcmjQ2BCKvYPGPY054wRJ/FLASH_BANK_APP_DESIGN?page-id=0%3A1&type=design&node-id=1-2&viewport=68%2C227%2C0.26&t=8at3E5IOwTSaI1pS-1&scaling=scale-down&starting-point-node-id=1%3A2&hide-ui=1"
+        },
+        {
+            "name": "yomu-manga-app-design",
+            "image": "/assets/app-designs/yomu-manga-app-design.jpg",
+            "link": "https://www.figma.com/proto/kIJeQqXQBlUHZJZLxfBzpV/YOMU_MANGA_APP_DESIGN?page-id=0%3A1&type=design&node-id=10-250&viewport=74%2C268%2C0.5&t=8f53j7lhaV0OFwTg-1&scaling=scale-down&hide-ui=1"
+        },
+        {
+            "name": "nike-app-design",
+            "image": "/assets/app-designs/nike-app-design.jpg",
+            "link": "https://www.figma.com/proto/XOgxf6guIo835NUQ5EREUL/NIKE_APP_DESIGN?page-id=0%3A1&type=design&node-id=1-2&viewport=37%2C138%2C1&t=mcMRQVR8sQ60kpTK-1&scaling=scale-down&starting-point-node-id=1%3A2&hide-ui=1"
+        },
+        {
+            "name": "music-app-design",
+            "image": "/assets/app-designs/music-app-design.jpg",
+            "link": "https://www.figma.com/proto/PouIp3c43LXHARnaMNCAXE/MUSIC_APP_DESIGN?page-id=0%3A1&type=design&node-id=1-2&viewport=433%2C243%2C1&t=8SHmxtoWgU8fjzVf-1&scaling=scale-down&starting-point-node-id=1%3A2&hide-ui=1"
+        }
+    ],
+
+    "GraphicDesigns": [
+        {
+            "name": "flow-g-poster-design2",
+            "image": "/assets/graphic-designs/flow-g-poster-design2.jpg"
+        },
+        {
+            "name": "skusta-clee-poster-design1",
+            "image": "/assets/graphic-designs/skusta-clee-poster-design1.jpg"
+        },
+        {
+            "name": "bini-poster-design",
+            "image": "/assets/graphic-designs/bini-poster-design.jpg"
+        },
+        {
+            "name": "axe-twist-poster-design",
+            "image": "/assets/graphic-designs/axe-twist-poster-design.jpg"
+        },
+        {
+            "name": "black-helmet-poster-design",
+            "image": "/assets/graphic-designs/black-helmet-poster-design.jpg"
+        },
+        {
+            "name": "nissan-skyline-gtr-poster-design",
+            "image": "/assets/graphic-designs/nissan-skyline-gtr-poster-design.jpg"
+        },
+        {
+            "name": "rolex-oyster-poster-design",
+            "image": "/assets/graphic-designs/rolex-oyster-poster-design.jpg"
+        },
+        {
+            "name": "it-professionals-2023-poster-design",
+            "image": "/assets/graphic-designs/it-professionals-2023-poster-design.jpg"
+        },
+        {
+            "name": "meowta-verse-poster-design",
+            "image": "/assets/graphic-designs/meowta-verse-poster-design.jpg"
+        },
+        {
+            "name": "cornetto-mint_chocolate-chip-poster-design",
+            "image": "/assets/graphic-designs/cornetto-mint_chocolate-chip-poster-design.jpg"
+        },
+        {
+            "name": "max-verstappen-poster-design",
+            "image": "/assets/graphic-designs/max-verstappen-poster-design.jpg"
+        },
+        {
+            "name": "koenigsegg-agera-r-poster-design",
+            "image": "/assets/graphic-designs/koenigsegg-agera-r-poster-design.jpg"
+        }
+    ],
+    
+    "FrontEnds": [
+        {
+            "name": "check-crypto-coin",
+            "image": "/assets/front-ends/check-crypto-coin.jpg",
+            "link": "https://check-crypto-coin.netlify.app/"
+        },
+        {
+            "name": "tailwind-trades",
+            "image": "/assets/front-ends/tailwind-trades.jpg",
+            "link": "https://travel-trades.netlify.app/"
+        },
+        {
+            "name": "react-dev-homepage-clone",
+            "image": "/assets/front-ends/react-dev-homepage-clone.jpg",
+            "link": "https://reactdevclone.netlify.app/"
+        },
+        {
+            "name": "inside-out-2",
+            "image": "/assets/front-ends/inside-out-2.jpg",
+            "link": "https://inside-out-2.netlify.app/"
+        },
+        {
+            "name": "luna",
+            "image": "/assets/front-ends/luna.jpg",
+            "link": "https://constrg.github.io/luna-website/"
+        },
+        {
+            "name": "uranus",
+            "image": "/assets/front-ends/uranus.jpg",
+            "link": "https://constrg.github.io/uranus-website/"
+        },
+        {
+            "name": "olios",
+            "image": "/assets/front-ends/olios.jpg",
+            "link": "https://constrg.github.io/olios-website/"
+        },
+        {
+            "name": "dash",
+            "image": "/assets/front-ends/dash.jpg",
+            "link": "https://constrg.github.io/dash-website/"
+        },
+        {
+            "name": "pex",
+            "image": "/assets/front-ends/pex.jpg",
+            "link": "https://constrg.github.io/pex-website/"
+        },
+        {
+            "name": "portal-ui",
+            "image": "/assets/front-ends/portal-ui.jpg",
+            "link": "https://constrg.github.io/portal-ui-website/"
+        },
+        {
+            "name": "groove-app",
+            "image": "/assets/front-ends/groove-app.jpg",
+            "link": "https://constrg.github.io/vibo-website/"
+        },
+        {
+            "name": "among-us",
+            "image": "/assets/front-ends/among-us.jpg",
+            "link": "https://constrg.github.io/among-us-website/"
+        },
+        {
+            "name": "technology-landing-page",
+            "image": "/assets/front-ends/technology-landing-page.jpg",
+            "link": "https://constrg.github.io/technology-landing-page-website/"
+        },
+        {
+            "name": "bini-landing-page",
+            "image": "/assets/front-ends/bini-landing-page.jpg",
+            "link": "https://bini-landing-page.netlify.app/"
+        },
+        {
+            "name": "luxury-cars",
+            "image": "/assets/front-ends/luxury-cars.jpg",
+            "link": "https://luxury-cars.netlify.app/"
+        },
+        {
+            "name": "job-list-app",
+            "image": "/assets/front-ends/job-list-app.jpg",
+            "link": "https://job-list-application.netlify.app/"
+        }
+    ]
+}

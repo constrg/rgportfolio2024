@@ -1,0 +1,117 @@
+@font-face {
+  font-family: monument-extended;
+  src: url('./assets/fonts/monumentextended-regular.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: monument-extended;
+  src: url('./assets/fonts/monumentextended-ultrabold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+*,
+*::before, 
+*::after
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-main);
+  font-weight: var(--fw-regular);
+  letter-spacing: 1px;
+}
+
+:root
+{
+  --ff-main: monument-extended;
+
+  --clr-light: 255, 255, 255;
+  --clr-dark: 0, 0, 0;
+  --clr-accent: 189, 252, 54;
+
+  --fs-base: 1rem;
+  --fs-xl: 8rem;
+  --fs-lg: 6rem;
+  --fs-md: 4rem;
+  --fs-sm: 2rem;
+  --fs-xsm: 0.75rem;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body 
+{
+  background-color: rgb(var(--clr-dark));
+  color: rgb(var(--clr-light));
+  font-size: var(--fs-base);
+  min-height: 100vh;
+}
+
+ul,
+li 
+{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button 
+{
+  border: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.container 
+{
+  padding-inline: 80px;
+}
+
+.highlight
+{
+  color: rgb(var(--clr-accent));
+}
+
+.underline
+{
+  text-decoration: underline solid rgb(var(--clr-accent));
+}
+
+@media (max-width: 1024px)
+{
+  .container 
+  {
+    padding-inline: 60px;
+  }
+}
+
+@media (max-width: 834px)
+{
+  .container 
+  {
+    padding-inline: 40px;
+  }
+}
+
+
+@media (max-width: 480px)
+{
+  .container 
+  {
+    padding-inline: 20px;
+  }
+}
