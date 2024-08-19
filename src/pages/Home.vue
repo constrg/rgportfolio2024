@@ -17,10 +17,11 @@ onMounted(async () => {
     <div class="hero">
         <div class="container">
 
+            <span class="dev">Hello! I'm Ricardo L. Garcia</span>
             <h1 class="hero-title" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
-                THINK. <br>
-                DESIGN. <br>
-                DEVELOP.
+                I think. <br>
+                I design. <br>
+                I develop.
             </h1>
 
             <div class="scroll-down" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
@@ -45,7 +46,8 @@ onMounted(async () => {
     <div class="intro-about-me" id="intro-about-me" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
             <p class="intro-about-me-p">
-                Hello! <span class="highlight">I'm Ricardo Garcia</span>, I have keen interest in <span class="underline">Web Design</span>, <span class="underline">UI/UX Design</span>, <span class="underline">Graphic Design</span>, and <span class="underline">Front-End Development</span>.
+                Hello! <span class="highlight">I'm Ricardo L. Garcia</span>, I have keen interest in <span class="underline">Web Design</span>, <span class="underline">UI/UX Design</span>, <span class="underline">Graphic Design</span>, and <span class="underline">Front-End Development</span>.
+                I have a passion for creativity and enjoy exploring new concepts and technologies in the world of design and development.
             </p>
             <button class="know-more-btn"><RouterLink :to="{name: 'about-me'}">Know more about me</RouterLink></button>
         </div>
@@ -54,7 +56,7 @@ onMounted(async () => {
 
     <div class="works" id="works" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
-            <h1 class="works-title">WORKS</h1>
+            <h1 class="works-title">Works</h1>
             <ul class="works-categories">
                 <li class="work-category-item"><RouterLink class="work-category-link" :to="{name: 'web-designs'}">Web Designs <img class="arrow-up-right-icon" src="../assets/icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon"></RouterLink></li>
                 <li class="work-category-item"><RouterLink class="work-category-link" :to="{name: 'app-designs'}">App Designs <img class="arrow-up-right-icon" src="../assets/icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon"></RouterLink></li>
@@ -73,11 +75,18 @@ onMounted(async () => {
 .hero 
 {
     padding-block: 120px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../assets/images/rg-img.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../assets/images/rg-img.jpg');
     background-size: cover;
     background-position: center;
     border-bottom: 1px solid rgb(var(--clr-light), 0.2);
     overflow: hidden;
+}
+
+.hero .dev 
+{
+    font-size: var(--fs-xsm);
+    display: block;
+    margin-bottom: 10px;
 }
 
 .hero .hero-title

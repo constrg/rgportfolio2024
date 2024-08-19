@@ -16,7 +16,7 @@ import { RouterLink } from 'vue-router';
                 </ul>
             </div>
             <ul class="quick-links">
-                <h1>QUICK LINKS</h1>
+                <h1>Quick Links</h1>
                 <li class="quick-item"><RouterLink class="quick-link" :to="{name: 'home'}">Home</RouterLink></li>
                 <li class="quick-item"><RouterLink class="quick-link" :to="{name: 'about-me'}">About Me</RouterLink></li>
                 <li class="quick-item"><a class="quick-link" href="./#works">Works</a></li>
@@ -59,7 +59,7 @@ import { RouterLink } from 'vue-router';
 
 .footer .copy .sm-links .sm-img
 {
-    width: 30px;
+    width: 35px;
 }
 
 .footer .quick-links

@@ -1,8 +1,23 @@
 <script setup>
+import { ref, onMounted, onUnmounted } from 'vue';
 import { RouterLink } from 'vue-router';
+
+const isNavActive = ref(false);
+
+const scrollHandler = () => {
+    isNavActive.value = window.scrollY > 0;
+}
+
+onMounted(() => {
+    window.addEventListener('scroll', scrollHandler);
+});
+
+onUnmounted(() => {
+    window.removeEventListener('scroll', scrollHandler)
+});
 </script>
 <template>
-    <nav class="nav">
+    <nav :class="['nav', [isNavActive ? 'nav-active' : '']]">
         <ul class="nav-list">
             <li class="nav-item"><RouterLink class="nav-link" :to="{name: 'home'}">Home</RouterLink></li>
             <li class="nav-item"><a class="nav-link" href="./#works">Works</a></li>
@@ -18,9 +33,14 @@ import { RouterLink } from 'vue-router';
     position: sticky;
     top: 0;
     z-index: 999;
+}
+
+.nav.nav-active
+{
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 }
+
 .nav .nav-list
 {
     display: grid;
