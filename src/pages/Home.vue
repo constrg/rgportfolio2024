@@ -14,17 +14,17 @@ onMounted(async () => {
 </script>
 
 <template>
-    <div class="hero">
+    <div class="hero" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
 
             <span class="dev">Hello! I'm Ricardo L. Garcia</span>
-            <h1 class="hero-title" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
+            <h1 class="hero-title" >
                 I think. <br>
                 I design. <br>
                 I develop.
             </h1>
 
-            <div class="scroll-down" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
+            <div class="scroll-down">
                 <div class="scroll-down-container">
                     <img class="scroll-down-img" draggable="false" src="../assets/images/scroll-down-img.png" alt="scroll-down-img">
                     <a href="#intro-about-me">
@@ -35,7 +35,7 @@ onMounted(async () => {
         
         </div>
 
-        <div class="skills-and-tools" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
+        <div class="skills-and-tools">
             <div class="skills-and-tools-container">
                 <img class="skills-and-tools-img" draggable="false" v-for="(skillAndTool, index) in SkillsAndTools" :key="index" :src="skillAndTool.image" :alt="skillAndTool.name" />
                 <img class="skills-and-tools-img" draggable="false" v-for="(skillAndTool, index) in SkillsAndTools" :key="index" :src="skillAndTool.image" :alt="skillAndTool.name" />
