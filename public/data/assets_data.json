@@ -69,9 +69,14 @@
             "link": "https://www.figma.com/proto/F3Ala7mMj0uwd25jGE20IC/TRAVEL-TOUR-WEB-DESIGN?page-id=0%3A1&node-id=1-2&viewport=-761%2C-17961%2C3.15&t=qHkCxKw6iwzPtnjD-8&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1%3A2&hide-ui=1"
         },
         {
-            "name": "data_engineering-pilipinas-web-design",
-            "image": "/assets/web-designs/data_engineering-pilipinas-web-design.jpg",
+            "name": "data-engineering-pilipinas-web-design",
+            "image": "/assets/web-designs/data-engineering-pilipinas-web-design.jpg",
             "link": "https://www.figma.com/proto/ikzxfOIKGEmwq3pqpZ2U11/DATA_ENGINEERING_PILIPINAS_WEB_DESIGN?node-id=168-41899&starting-point-node-id=168%3A41899&scaling=scale-down-width&content-scaling=fixed&t=X6fWk65WJ4s0rsTd-1&hide-ui=1"
+        },
+        {
+            "name": "kofe-web-design",
+            "image": "/assets/web-designs/kofe-web-design.jpg",
+            "link": "https://www.figma.com/proto/sEq95oJs5pTgrElV5s8KgE/KOFE-WEB-DESIGN?page-id=0%3A1&node-id=2-2&t=tMAMLHjusqAXN2Mj-0&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=2%3A2&hide-ui=1"
         },
         {
             "name": "barbero-shop-web-design",
