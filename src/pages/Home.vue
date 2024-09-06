@@ -46,7 +46,7 @@ onMounted(async () => {
     <div class="intro-about-me" id="intro-about-me" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
             <p class="intro-about-me-p">
-                Hello! <span class="highlight">I'm Ricardo L. Garcia</span>, I have a strong focus on <span class="underline">Web Design</span>, <span class="underline">UI/UX Design</span>, <span class="underline">Graphic Design</span>, and <span class="underline">Front-End Development</span>.
+                Hello! <span class="highlight">I'm Ricardo L. Garcia</span>, I have a strong focus on <span class="underline">Web and App Design</span>, <span class="underline">UI/UX Design</span>, <span class="underline">Graphic Design</span>, and <span class="underline">Front-End Development</span>.
                 I have a passion for creativity and enjoy exploring new concepts and technologies in the world of design and development.
             </p>
             <button class="know-more-btn"><RouterLink :to="{name: 'about-me'}">Know more about me</RouterLink></button>
