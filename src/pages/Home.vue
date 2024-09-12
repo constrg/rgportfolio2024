@@ -72,7 +72,6 @@ onMounted(async () => {
 .hero 
 {
     padding-block: 60px;
-    border-bottom: 1px solid rgb(var(--clr-light), 0.2);
     overflow: hidden;
 }
 
@@ -83,6 +82,7 @@ onMounted(async () => {
     align-items: center;
     margin-bottom: 20px;
 }
+
 .hero-img .rg-id
 {
     width: 100%;
@@ -99,6 +99,7 @@ onMounted(async () => {
 .hero-img .rg-id:hover 
 {
     transform: unset;
+    box-shadow: 0 0 30px 0 rgb(var(--clr-dark), 0.3);
 }
 
 .hero .scroll-down
@@ -144,6 +145,8 @@ onMounted(async () => {
     overflow: hidden;
     width: 100%;
     transform: rotate(-1deg);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .hero .skills-and-tools .skills-and-tools-container {
@@ -172,7 +175,6 @@ onMounted(async () => {
 .intro-about-me
 {
     padding-block: 120px;
-    border-bottom: 1px solid rgb(var(--clr-light), 0.2);
 }
 
 .intro-about-me .intro-about-me-p
