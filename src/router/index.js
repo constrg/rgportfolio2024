@@ -64,7 +64,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-    document.title = to.meta.title || 'Constrg Portfolio';
+    document.title = to.meta.title || 'rgportfolio2024';
     next();
 });
 
