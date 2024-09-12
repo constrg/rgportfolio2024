@@ -102,6 +102,7 @@ onMounted(async () => {
     padding: 20px;
     background-color: rgb(var(--clr-accent));
     color: rgb(var(--clr-dark));
+    border-radius: 5px;
     display: flex;
     align-items: center;
     column-gap: 10px;
