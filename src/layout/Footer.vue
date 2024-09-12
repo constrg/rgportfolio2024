@@ -84,7 +84,7 @@ import { RouterLink } from 'vue-router';
     color: rgb(var(--clr-accent));
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     border-radius: 5px;
 }
 

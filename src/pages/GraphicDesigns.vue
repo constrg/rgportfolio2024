@@ -72,6 +72,7 @@ onMounted(async () => {
 {
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .graphic-design .graphic-design-list .graphic-design-img
@@ -85,6 +86,7 @@ onMounted(async () => {
     padding: 20px;
     background-color: rgb(var(--clr-accent));
     color: rgb(var(--clr-dark));
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;

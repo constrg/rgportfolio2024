@@ -196,7 +196,7 @@ onMounted(async () => {
 .intro-about-me .about-me-btn .about-me-link 
 {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     column-gap: 20px;
 }
 
@@ -237,7 +237,7 @@ onMounted(async () => {
 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .works .works-categories .work-category-item .work-category-link .arrow-up-right-icon
@@ -272,7 +272,7 @@ onMounted(async () => {
 
     .intro-about-me .about-me-btn 
     {
-        font-size: var(--fs-base);
+        font-size: var(--fs-sm);
     }
 
     .works .works-title 
@@ -304,6 +304,11 @@ onMounted(async () => {
     }
 
     .intro-about-me .intro-about-me-p
+    {
+        font-size: var(--fs-base);
+    }
+
+    .intro-about-me .about-me-btn 
     {
         font-size: var(--fs-base);
     }

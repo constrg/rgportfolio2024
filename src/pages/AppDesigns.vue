@@ -74,6 +74,7 @@ onMounted(async () => {
 {
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .app-design .app-design-list .app-design-img

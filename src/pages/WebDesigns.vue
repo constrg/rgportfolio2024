@@ -73,6 +73,7 @@ onMounted(async () => {
 {
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .web-design .web-design-list .web-design-img

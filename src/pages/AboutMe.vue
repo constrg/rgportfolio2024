@@ -50,7 +50,7 @@
     border-radius: 5px;
     transform: rotate(-1deg);
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     column-gap: 20px;
 }
 
