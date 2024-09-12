@@ -67,7 +67,4 @@ onUnmounted(() => {
 {
     background-color: rgb(var(--clr-light), 0.1);
 }
-
-
-
 </style>

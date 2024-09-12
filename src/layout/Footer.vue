@@ -85,6 +85,7 @@ import { RouterLink } from 'vue-router';
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    border-radius: 5px;
 }
 
 .footer .footer-action-links .footer-action-link .arrow-up-right-icon

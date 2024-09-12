@@ -43,10 +43,10 @@ onMounted(async () => {
     <div class="intro-about-me" id="intro-about-me" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
             <p class="intro-about-me-p">
-                Hello! <span class="highlight">I'm Ricardo L. Garcia</span>, I have a strong focus on <span class="underline">Web and App Design</span>, <span class="underline">UI/UX</span>, <span class="underline">Graphic Design</span>, and <span class="underline">Front-End Development</span>.
+                Hello! <span class="highlight">I'm Ricardo L. Garcia</span>, I have a strong focus on <span class="underline">web and app Design</span>, <span class="underline">UI/UX</span>, <span class="underline">graphic design</span>, and <span class="underline">front-end development</span>.
                 I have a passion for creativity and enjoy exploring new concepts and technologies in the world of design and development.
             </p>
-            <button class="know-more-btn"><RouterLink :to="{name: 'about-me'}">Know more about me</RouterLink></button>
+            <button class="about-me-btn"><RouterLink class="about-me-link" :to="{name: 'about-me'}">About me <img class="arrow-up-right-icon" src="../assets/icons/arrow-up-right-icon.svg" alt="arrow-up-right-icon"></RouterLink></button>
         </div>
     </div>
 
@@ -183,13 +183,27 @@ onMounted(async () => {
     margin-bottom: 20px;
 }
 
-.intro-about-me .know-more-btn
+.intro-about-me .about-me-btn
 {
     padding: 20px;
     font-size: var(--fs-sm);
     background-color: rgb(var(--clr-accent));
     color: rgb(var(--clr-dark));
+    border-radius: 5px;
     transform: rotate(-1deg);
+}
+
+.intro-about-me .about-me-btn .about-me-link 
+{
+    display: flex;
+    align-items: flex-end;
+    column-gap: 20px;
+}
+
+.intro-about-me .about-me-btn .arrow-up-right-icon
+{
+    filter: invert(100%);
+    opacity: 0.5;
 }
 
 /* Works */
@@ -225,6 +239,7 @@ onMounted(async () => {
     justify-content: space-between;
     align-items: flex-end;
 }
+
 .works .works-categories .work-category-item .work-category-link .arrow-up-right-icon
 {
     opacity: 0.5;
@@ -255,7 +270,7 @@ onMounted(async () => {
         font-size: var(--fs-sm);
     }
 
-    .intro-about-me .know-more-btn 
+    .intro-about-me .about-me-btn 
     {
         font-size: var(--fs-base);
     }
