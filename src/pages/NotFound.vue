@@ -9,7 +9,7 @@
 <style scoped>
 .not-found
 {
-    padding-block: 120px;
+    padding-block: 60px;
 }
 
 .not-found-title

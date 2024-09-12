@@ -43,7 +43,7 @@ onMounted(async () => {
 <style scoped>
 .graphic-design
 {
-    padding-block: 120px;
+    padding-block: 60px;
 }
 
 .graphic-design .graphic-design-title

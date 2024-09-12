@@ -47,7 +47,7 @@ onMounted(async () => {
 <style scoped>
 .front-end
 {
-    padding-block: 120px;
+    padding-block: 60px;
 }
 
 .front-end .front-end-title

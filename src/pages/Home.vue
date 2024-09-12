@@ -17,12 +17,9 @@ onMounted(async () => {
     <div class="hero" data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
         <div class="container">
 
-            <span class="dev">Hello! I'm Ricardo L. Garcia</span>
-            <h1 class="hero-title" >
-                I think. <br>
-                I design. <br>
-                I develop.
-            </h1>
+           <div class="hero-img">
+                <img class="rg-id" src="../assets/images/rg-id.png" alt="rg-id" draggable="false">
+           </div>
 
             <div class="scroll-down">
                 <div class="scroll-down-container">
@@ -74,7 +71,7 @@ onMounted(async () => {
 /* Hero */
 .hero 
 {
-    padding-block: 120px;
+    padding-block: 60px;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../assets/images/rg-img.jpg');
     background-size: cover;
     background-position: center;
@@ -82,18 +79,29 @@ onMounted(async () => {
     overflow: hidden;
 }
 
-.hero .dev 
+.hero-img
 {
-    font-size: var(--fs-xsm);
-    display: block;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.hero-img .rg-id
+{
+    width: 100%;
+    max-width: 600px;
+    transform:
+    perspective(1000px)
+    rotateX(10deg)
+    rotateY(10deg)
+    rotateZ(-5deg);
+    box-shadow: -20px 20px 30px 0 rgb(var(--clr-dark), 0.3);
+    transition-duration: 0.3s;
 }
 
-.hero .hero-title
+.hero-img .rg-id:hover 
 {
-    font-size: var(--fs-xl);
-    margin-bottom: 20px;
-    color: rgb(var(--clr-accent));
+    transform: unset;
 }
 
 .hero .scroll-down

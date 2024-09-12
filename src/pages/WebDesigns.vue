@@ -45,7 +45,7 @@ onMounted(async () => {
 <style scoped>
 .web-design
 {
-    padding-block: 120px;
+    padding-block: 60px;
 }
 
 .web-design .web-design-title
