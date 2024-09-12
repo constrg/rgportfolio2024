@@ -54,6 +54,10 @@ body
   color: rgb(var(--clr-light));
   font-size: var(--fs-base);
   min-height: 100vh;
+  background-image: url('./assets/images/background-gradient.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 ul,

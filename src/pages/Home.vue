@@ -72,9 +72,6 @@ onMounted(async () => {
 .hero 
 {
     padding-block: 60px;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../assets/images/rg-img.jpg');
-    background-size: cover;
-    background-position: center;
     border-bottom: 1px solid rgb(var(--clr-light), 0.2);
     overflow: hidden;
 }
