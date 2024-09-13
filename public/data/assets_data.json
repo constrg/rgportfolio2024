@@ -160,6 +160,14 @@
 
     "GraphicDesigns": [
         {
+            "name": "messi-poster-design",
+            "image": "/assets/graphic-designs/messi-poster-design.jpg"
+        },
+        {
+            "name": "ronaldo-poster-design",
+            "image": "/assets/graphic-designs/ronaldo-poster-design.jpg"
+        },
+        {
             "name": "flow-g-poster-design2",
             "image": "/assets/graphic-designs/flow-g-poster-design2.jpg"
         },
@@ -188,8 +196,8 @@
             "image": "/assets/graphic-designs/rolex-oyster-poster-design.jpg"
         },
         {
-            "name": "it-professionals-2023-poster-design",
-            "image": "/assets/graphic-designs/it-professionals-2023-poster-design.jpg"
+            "name": "nike-shoes-poster-design",
+            "image": "/assets/graphic-designs/nike-shoes-poster-design.jpg"
         },
         {
             "name": "meowta-verse-poster-design",
