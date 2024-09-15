@@ -239,6 +239,11 @@
             "link": "https://inside-out-2.netlify.app/"
         },
         {
+            "name": "nike-hero",
+            "image": "/assets/front-ends/nike-hero.jpg",
+            "link": "https://constrg.github.io/nike-hero/"
+        },
+        {
             "name": "luna",
             "image": "/assets/front-ends/luna.jpg",
             "link": "https://constrg.github.io/luna-website/"
